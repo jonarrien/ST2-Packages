@@ -7,3 +7,6 @@
 [submodule "GemBrowser"]
 	path = GemBrowser
 	url = https://github.com/NaN1488/sublime-gem-browser.git
+[submodule "Hayaku"]
+	path = Hayaku
+	url = https://github.com/hayaku/hayaku.git

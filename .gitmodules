@@ -52,3 +52,6 @@
 [submodule "Clang"]
 	path = Clang
 	url = https://github.com/quarnster/SublimeClang.git
+[submodule "CTags"]
+	path = CTags
+	url = https://github.com/SublimeText/CTags.git

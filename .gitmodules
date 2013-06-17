@@ -37,3 +37,6 @@
 [submodule "RSpec"]
 	path = RSpec
 	url = https://github.com/SublimeText/RSpec.git
+[submodule "VcsGutter"]
+	path = VcsGutter
+	url = https://github.com/bradsokol/VcsGutter.git

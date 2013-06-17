@@ -49,3 +49,6 @@
 [submodule "NavigationHistory"]
 	path = NavigationHistory
 	url = https://github.com/timjrobinson/SublimeNavigationHistory.git
+[submodule "Clang"]
+	path = Clang
+	url = https://github.com/quarnster/SublimeClang.git

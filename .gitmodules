@@ -43,3 +43,6 @@
 [submodule "ShellTurtlestein"]
 	path = ShellTurtlestein
 	url = https://github.com/misfo/Shell-Turtlestein.git
+[submodule "SideBarEnhancements"]
+	path = SideBarEnhancements
+	url = https://github.com/titoBouzout/SideBarEnhancements

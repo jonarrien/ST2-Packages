@@ -1,0 +1,3 @@
+[submodule "Sass"]
+	path = Sass
+	url = https://github.com/nathos/sass-textmate-bundle.git

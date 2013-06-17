@@ -28,3 +28,6 @@
 [submodule "PaneNavigation"]
 	path = PaneNavigation
 	url = https://github.com/borist/SublimePaneNavigation.git
+[submodule "RailsMigrationList"]
+	path = RailsMigrationList
+	url = https://github.com/KELiON/RailsMigrationsList.git

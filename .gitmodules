@@ -22,3 +22,6 @@
 [submodule "Less"]
 	path = Less
 	url = https://github.com/danro/LESS-sublime.git
+[submodule "RailsNav"]
+	path = RailsNav
+	url = https://github.com/noklesta/SublimeRailsNav.git

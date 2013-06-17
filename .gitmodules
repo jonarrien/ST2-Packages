@@ -25,3 +25,6 @@
 [submodule "RailsNav"]
 	path = RailsNav
 	url = https://github.com/noklesta/SublimeRailsNav.git
+[submodule "PaneNavigation"]
+	path = PaneNavigation
+	url = https://github.com/borist/SublimePaneNavigation.git

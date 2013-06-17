@@ -46,3 +46,6 @@
 [submodule "SideBarEnhancements"]
 	path = SideBarEnhancements
 	url = https://github.com/titoBouzout/SideBarEnhancements
+[submodule "NavigationHistory"]
+	path = NavigationHistory
+	url = https://github.com/timjrobinson/SublimeNavigationHistory.git

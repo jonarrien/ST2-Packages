@@ -55,3 +55,6 @@
 [submodule "CTags"]
 	path = CTags
 	url = https://github.com/SublimeText/CTags.git
+[submodule "REPL"]
+	path = REPL
+	url = https://github.com/wuub/SublimeREPL.git

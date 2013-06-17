@@ -40,3 +40,6 @@
 [submodule "VcsGutter"]
 	path = VcsGutter
 	url = https://github.com/bradsokol/VcsGutter.git
+[submodule "ShellTurtlestein"]
+	path = ShellTurtlestein
+	url = https://github.com/misfo/Shell-Turtlestein.git

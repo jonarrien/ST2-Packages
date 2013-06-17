@@ -16,3 +16,6 @@
 [submodule "Guard"]
 	path = Guard
 	url = https://github.com/cyphactor/sublime_guard.git
+[submodule "RubyTest"]
+	path = RubyTest
+	url = https://github.com/maltize/sublime-text-2-ruby-tests.git

@@ -31,3 +31,6 @@
 [submodule "RailsMigrationList"]
 	path = RailsMigrationList
 	url = https://github.com/KELiON/RailsMigrationsList.git
+[submodule "RailsPartial"]
+	path = RailsPartial
+	url = https://github.com/wesf90/rails-partial.git

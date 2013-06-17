@@ -1,3 +1,6 @@
 [submodule "Sass"]
 	path = Sass
 	url = https://github.com/nathos/sass-textmate-bundle.git
+[submodule "Haml"]
+	path = Haml
+	url = https://github.com/phuibonhoa/handcrafted-haml-textmate-bundle.git

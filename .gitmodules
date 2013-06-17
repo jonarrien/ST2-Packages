@@ -34,3 +34,6 @@
 [submodule "RailsPartial"]
 	path = RailsPartial
 	url = https://github.com/wesf90/rails-partial.git
+[submodule "RSpec"]
+	path = RSpec
+	url = https://github.com/SublimeText/RSpec.git

@@ -13,3 +13,6 @@
 [submodule "CoffeeScript"]
 	path = CoffeeScript
 	url = https://github.com/Xavura/CoffeeScript-Sublime-Plugin.git
+[submodule "Guard"]
+	path = Guard
+	url = https://github.com/cyphactor/sublime_guard.git

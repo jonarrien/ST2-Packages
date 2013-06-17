@@ -19,3 +19,6 @@
 [submodule "RubyTest"]
 	path = RubyTest
 	url = https://github.com/maltize/sublime-text-2-ruby-tests.git
+[submodule "Less"]
+	path = Less
+	url = https://github.com/danro/LESS-sublime.git

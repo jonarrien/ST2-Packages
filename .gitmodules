@@ -4,3 +4,6 @@
 [submodule "Haml"]
 	path = Haml
 	url = https://github.com/phuibonhoa/handcrafted-haml-textmate-bundle.git
+[submodule "GemBrowser"]
+	path = GemBrowser
+	url = https://github.com/NaN1488/sublime-gem-browser.git

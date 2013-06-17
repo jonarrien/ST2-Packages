@@ -10,3 +10,6 @@
 [submodule "Hayaku"]
 	path = Hayaku
 	url = https://github.com/hayaku/hayaku.git
+[submodule "CoffeeScript"]
+	path = CoffeeScript
+	url = https://github.com/Xavura/CoffeeScript-Sublime-Plugin.git

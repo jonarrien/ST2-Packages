@@ -58,6 +58,3 @@
 [submodule "REPL"]
 	path = REPL
 	url = https://github.com/wuub/SublimeREPL.git
-[submodule "Soda"]
-	path = Soda
-	url = git@github.com:buymeasoda/soda-theme.git

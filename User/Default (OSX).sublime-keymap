@@ -1,0 +1,180 @@
+[
+
+    //----- GENERAL
+    { "keys": ["super+p"], "command": "toggle_side_bar" },
+    { "keys": ["super+ctrl+c"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
+    // { "keys": ["super+l"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
+    // { "keys": ["ctrl+super+r"], "command": "reveal_in_side_bar" },
+
+    // ----- COLOR PICK
+    { "keys": ["ctrl+alt+super+c"], "command": "color_pick" },
+
+    // ----- NAVIGATION ----- super+e => Recent files
+    // https://github.com/marram/sublime-navigation-history
+    { "keys": ["ctrl+alt+["], "command": "navigation_history_back"},
+    { "keys": ["ctrl+alt+]"], "command": "navigation_history_forward"},
+
+    // ----- STACK
+    { "keys": ["ctrl+tab"], "command": "next_view_in_stack" },
+    { "keys": ["ctrl+shift+tab"], "command": "prev_view_in_stack" },
+    { "keys": ["ctrl+alt+super+left"], "command": "next_view_in_stack" },
+    { "keys": ["ctrl+alt+super+right"], "command": "prev_view_in_stack" },
+
+    // ----- BOOKMARKS
+    { "keys": ["ctrl+super+m"], "command": "toggle_bookmark" },
+    // { "keys": ["f2"], "command": "next_bookmark" },
+    { "keys": ["ctrl+alt+super+n"], "command": "next_bookmark" },
+    // { "keys": ["shift+f2"], "command": "prev_bookmark" },
+    { "keys": ["ctrl+alt+super+p"], "command": "prev_bookmark" },
+    { "keys": ["super+shift+f2"], "command": "clear_bookmarks" },
+    { "keys": ["alt+f2"], "command": "select_all_bookmarks" },
+
+    // ----- BUSQUEDAS ------ in vintage => / or ?
+    { "keys": ["super+i"], "command": "show_panel", "args": {"panel": "incremental_find", "reverse":false} },
+    { "keys": ["super+shift+i"], "command": "show_panel", "args": {"panel": "incremental_find", "reverse":true} },
+
+    // ----- SELECTION
+    { "keys": ["super+l"], "command": "expand_selection", "args": {"to": "line"} },
+    { "keys": ["super+d"], "command": "find_under_expand" },
+    { "keys": ["super+k", "super+d"], "command": "find_under_expand_skip" },
+    { "keys": ["super+shift+space"], "command": "expand_selection", "args": {"to": "scope"} },
+    { "keys": ["ctrl+shift+m"], "command": "expand_selection", "args": {"to": "brackets"} },
+    { "keys": ["ctrl+m"], "command": "move_to", "args": {"to": "brackets"} },
+    { "keys": ["super+shift+j"], "command": "expand_selection", "args": {"to": "indentation"} },
+    { "keys": ["super+shift+a"], "command": "expand_selection", "args": {"to": "tag"} },
+    { "keys": ["super+shift+v"], "command": "paste_and_indent" },
+
+
+    // ----- CTAGS -----
+    { "command": "navigate_to_definition", "keys": ["ctrl+t", "ctrl+t"] },
+    { "command": "navigate_to_definition", "keys": ["ctrl+shift+period"] },
+    { "command": "search_for_definition", "keys": ["ctrl+t", "ctrl+y"] },
+    { "command": "jump_back", "keys": ["ctrl+t", "ctrl+b"] },
+    { "command": "jump_back", "keys": ["ctrl+shift+comma"] },
+    { "command": "jump_back", "args": {"to": "last_modification"}, "keys": ["ctrl+t", "ctrl+m"] },
+    { "command": "rebuild_tags", "keys": ["ctrl+t", "ctrl+r"] },
+    { "command": "show_symbols", "context": [{ "key": "selector", "match_all": true, "operand": "source -source.css", "operator": "equal" }],"keys": ["alt+s"] },
+    { "command": "show_symbols", "args": {"type": "multi"}, "context": [{"key": "selector", "match_all": true, "operand": "source -source.css", "operator": "equal"}], "keys": ["alt+shift+s"]},
+    { "command": "show_symbols", "args": {"type": "lang"}, "context": [{"key": "selector", "match_all": true, "operand": "source -source.css", "operator": "equal"}], "keys": ["ctrl+alt+shift+s"] },
+    { "command": "transpose", "context": [{ "key": "num_selections", "operator": "not_equal", "operand": 1 }],"keys": ["ctrl+t"] },
+
+    // ----- OPEN LAST EDITED FILE -----
+    { "keys": ["super+shift+t"], "command": "open_recent_file", "args": {"index" : 0} },
+
+    // ----- VINTAGE MODE -----
+        // Ctrl+[: Escape
+        // Ctrl+C: Exit vintage boda
+        // Ctrl+R: Redo
+        // Ctrl+Y: Scroll down one line
+        // Ctrl+E: Scroll up one line
+        // Ctrl+F: Page Down
+        // Ctrl+B: Page Up
+    { "keys": ["j", "j"], "command": "exit_insert_mode",
+        "context":
+        [
+            { "key": "setting.command_mode", "operand": false },
+            { "key": "setting.is_widget", "operand": false }
+        ]
+    },
+    // ----- SUBLIMELINTER : SHOW ERRORS
+    { "keys": ["ctrl+super+e"], "command": "sublimelinter", "args": {"action": "lint", "show_popup": true} },
+    // ----- SUBLIME CLANG -----
+    // alt+d,alt+d     Go to the parent reference of whatever is under the current cursor position
+    // alt+d,alt+i     Go to the implementation
+    // alt+d,alt+b     Go back to where you were before hitting alt+d,alt+d or alt+d,alt+i
+    // alt+d,alt+c     Clear the cache. Will force all files to be reparsed when needed
+    // alt+d,alt+w     Manually warm up the cache
+    // alt+d,alt+r     Manually reparse the current file
+    // alt+d,alt+t     Toggle whether Clang completion is enabled or not. Useful if the complete operation is slow and you only want to use it selectively alt+d,alt+p     Toggle the Clang output panel alt+d,alt+e     Go to next error or warning in the file alt+shift+d,    alt+shift+e Go to the previous error or warning in the file
+    // alt+d,alt+s     Run the Clang static analyzer on the current file
+    // alt+d,alt+o     Run the Clang static analyzer on the current project
+    // alt+d,alt+f     Toggle whether fast (but possibly inaccurate) completions are used or not
+    { "keys": ["super+alt+up"], "command": "switch_file", "args": {"extensions": ["cpp", "cxx", "cc", "c", "hpp", "hxx", "h", "ipp", "inl", "m", "mm"]} },
+
+
+    // ----- COFFEE SCRIPT -----
+    // alt+shift+t - Run a Cake task
+    // alt+shift+r - Run some CoffeeScript (puts/print is available for output)
+    // alt+shift+s - Run a syntax check
+    // alt+shift+c - Compile a file
+    // alt+shift+d - Display compiled JavaScript
+    // alt+shift+l - Display lexer tokens
+    // alt+shift+n - Display parser nodes
+    // alt+shift+w - Toggle watch mode
+    // alt+shift+p - Toggle output panel
+
+    // ----- PREFIXR -----
+    { "keys": ["ctrl+super+x"], "command": "prefixr" },
+
+    // SUBLIME SIMPLE RAILS NAVIGATOR --- super+ctrl+m
+    { "keys": [" ", "m"], "command": "list_rails_models", "context": [{"key": "setting.command_mode"}] },
+    { "keys": [" ", "c"], "command": "list_rails_controllers", "context": [{"key": "setting.command_mode"}] },
+    { "keys": [" ", "v"], "command": "list_rails_views", "context": [{"key": "setting.command_mode"}] },
+    { "keys": [" ", "h"], "command": "list_rails_helpers", "context": [{"key": "setting.command_mode"}] },
+    { "keys": [" ", "f"], "command": "list_rails_fixtures", "context": [{"key": "setting.command_mode"}] },
+    { "keys": [" ", "t"], "command": "list_rails_tests", "context": [{"key": "setting.command_mode"}] },
+    { "keys": [" ", "j"], "command": "list_rails_javascripts", "context": [{"key": "setting.command_mode"}] },
+    { "keys": [" ", "s"], "command": "list_rails_stylesheets", "context": [{"key": "setting.command_mode"}] },
+
+    // SUBLIME SIMPLE RAILS NAVIGATOR
+    // { "keys": [" ", "m"], "command": "list_ember_models", "context": [{"key": "setting.command_mode"}] },
+    // { "keys": [" ", "c"], "command": "list_ember_controllers", "context": [{"key": "setting.command_mode"}] },
+    // { "keys": [" ", "v"], "command": "list_ember_views", "context": [{"key": "setting.command_mode"}] },
+    // { "keys": [" ", "t"], "command": "list_ember_templates", "context": [{"key": "setting.command_mode"}] },
+    // { "keys": [" ", "i"], "command": "list_ember_mixins", "context": [{"key": "setting.command_mode"}] },
+    // { "keys": [" ", "a"], "command": "list_ember_data", "context": [{"key": "setting.command_mode"}] },
+    // { "keys": [" ", "s"], "command": "list_ember_states", "context": [{"key": "setting.command_mode"}] },
+    // { "keys": [" ", "0"], "command": "open_ember_application_file", "context": [{"key": "setting.command_mode"}] },
+    // { "keys": [" ", "r"], "command": "open_ember_root_file", "context": [{"key": "setting.command_mode"}] },
+
+    // SUBLIME PEEK
+    { "keys": ["super+shift+h"], "command": "sublime_peek" },
+
+    // SUBLIME REPL
+
+
+    // PLAIN TASKS
+
+    { "keys": ["super+d"], "command": "complete","context": [{ "key": "selector", "operator": "equal", "operand": "text.todo" }] },
+    { "keys": ["super+enter"], "command": "new","context": [{ "key": "selector", "operator": "equal", "operand": "text.todo" }] },
+    { "keys": ["super+i"], "command": "new","context": [{ "key": "selector", "operator": "equal", "operand": "text.todo" }] },
+    { "keys": ["super+shift+a"], "command": "archive","context": [{ "key": "selector", "operator": "equal", "operand": "text.todo" }] },
+
+    // JsFORMAT
+    { "keys": ["ctrl+alt+super+f"], "command": "js_format"},
+
+    // EMMET
+    { "keys": ["shift+super+y"],"args": { "action": "evaluate_math_expression" }, "command": "run_emmet_action", "context": [{"key": "emmet_action_enabled.evaluate_math_expression"}]},
+    { "keys": ["super+'"],"args": { "action": "remove_tag" }, "command": "run_emmet_action", "context": [{"key": "emmet_action_enabled.remove_tag"}] },
+    { "keys": ["ctrl+up"], "args": {"action": "increment_number_by_1"}, "command": "run_emmet_action", "context": [{"key": "emmet_action_enabled.increment_number_by_1"} ] },
+    { "keys": ["super+shift+forward_slash"], "args": {"action": "toggle_comment"}, "command": "run_emmet_action", "context": [{"operand": "source.css -source.css.less, text.xml, text.html - source", "operator": "equal", "match_all": true, "key": "selector"}, {"match_all": true, "key": "emmet_action_enabled.toggle_comment"} ] },
+    { "keys": ["shift+super+."], "args": {"action": "select_next_item"}, "command": "run_emmet_action", "context": [{"key": "emmet_action_enabled.select_next_item"} ] },
+    { "keys": ["ctrl+alt+enter"], "command": "expand_as_you_type", "context": [{"operand": false, "operator": "equal", "match_all": true, "key": "setting.is_widget"}, {"match_all": true, "key": "emmet_action_enabled.expand_as_you_type"} ] },
+    { "keys": ["alt+down"], "args": {"action": "decrement_number_by_01"}, "command": "run_emmet_action", "context": [{"key": "emmet_action_enabled.decrement_number_by_01"} ]},
+    { "keys": ["shift+ctrl+d"], "args": {"action": "encode_decode_data_url"}, "command": "run_emmet_action", "context": [{"key": "emmet_action_enabled.encode_decode_data_url"} ] },
+    { "keys": ["ctrl+j"], "args": {"action": "match_pair_inward"}, "command": "run_emmet_action", "context": [{"key": "emmet_action_enabled.match_pair_inward"} ] },
+    { "keys": ["alt+super+up"], "args": {"action": "increment_number_by_10"}, "command": "run_emmet_action", "context": [{"key": "emmet_action_enabled.increment_number_by_10"} ] },
+    // { "keys": ["shift+super+r"], "args": {"action": "reflect_css_value"}, "command": "run_emmet_action", "context": [{"key": "emmet_action_enabled.reflect_css_value"} ] },
+    { "keys": ["shift+alt+super+r"], "args": {"action": "reflect_css_value"}, "command": "run_emmet_action", "context": [{"key": "emmet_action_enabled.reflect_css_value"} ] },
+    { "keys": ["ctrl+alt+left"], "args": {"action": "prev_edit_point"}, "command": "run_emmet_action", "context": [{"key": "emmet_action_enabled.prev_edit_point"} ] },
+    { "keys": ["shift+super+,"], "args": {"action": "select_previous_item"}, "command": "run_emmet_action", "context": [{"key": "emmet_action_enabled.select_previous_item"} ] },
+    { "keys": ["ctrl+d"], "args": {"action": "match_pair_outward"}, "command": "run_emmet_action", "context": [{"key": "emmet_action_enabled.match_pair_outward"} ] },
+    { "keys": ["shift+ctrl+i"], "args": {"action": "update_image_size"}, "command": "run_emmet_action", "context": [{"key": "emmet_action_enabled.update_image_size"} ] },
+    { "keys": ["ctrl+alt+right"], "args": {"action": "next_edit_point"}, "command": "run_emmet_action", "context": [{"key": "emmet_action_enabled.next_edit_point"} ] },
+    { "keys": ["shift+super+'"], "args": {"action": "split_join_tag"}, "command": "run_emmet_action", "context": [{"key": "emmet_action_enabled.split_join_tag"} ] },
+    { "keys": ["alt+super+down"], "args": {"action": "decrement_number_by_10"}, "command": "run_emmet_action", "context": [{"key": "emmet_action_enabled.decrement_number_by_10"} ] },
+    { "keys": ["ctrl+w"], "command": "wrap_as_you_type", "context": [{"operand": false, "operator": "equal", "match_all": true, "key": "setting.is_widget"}, {"match_all": true, "key": "emmet_action_enabled.wrap_as_you_type"} ] },
+    { "keys": ["super+shift+k"], "command": "rename_tag", "context": [{"key": "emmet_action_enabled.rename_tag"} ] }, {"keys": ["alt+up"], "args": {"action": "increment_number_by_01"}, "command": "run_emmet_action", "context": [{"key": "emmet_action_enabled.increment_number_by_01"} ] },
+    { "keys": ["ctrl+shift+t"], "args": {"action": "matching_pair"}, "command": "run_emmet_action", "context": [{"key": "emmet_action_enabled.matching_pair"} ] }, {"keys": ["ctrl+down"], "args": {"action": "decrement_number_by_1"}, "command": "run_emmet_action", "context": [{"key": "emmet_action_enabled.decrement_number_by_1"} ] },
+    { "keys": ["ctrl+e"], "args": {"action": "expand_abbreviation"}, "command": "run_emmet_action", "context": [{"key": "emmet_action_enabled.expand_abbreviation"} ] },
+    { "keys": ["tab"], "command": "expand_abbreviation_by_tab", "context": [{"operand": "source.css, source.sass, source.less, source.scss, source.stylus, text.xml, text.html - source - keyword.control.php, text.haml, string", "operator": "equal", "match_all": true, "key": "selector"}, {"match_all": true, "key": "selection_empty"}, {"operator": "equal", "operand": false, "match_all": true, "key": "has_next_field"}, {"operator": "equal", "operand": false, "match_all": true, "key": "setting.disable_tab_abbreviations"}, {"operand": false, "operator": "equal", "match_all": true, "key": "auto_complete_visible"}, {"match_all": true, "key": "is_abbreviation"} ] },
+    { "keys": ["tab"], "command": "expand_abbreviation_by_tab", "context": [{"operand": "source.css, source.sass, source.less, source.scss, source.stylus, text.xml, text.html - source - keyword.control.php, text.haml, string", "operator": "equal", "match_all": true, "key": "selector"}, {"match_all": true, "key": "selection_empty"}, {"operator": "equal", "operand": false, "match_all": true, "key": "has_next_field"}, {"operator": "equal", "operand": true, "match_all": true, "key": "auto_complete_visible"}, {"operator": "equal", "operand": false, "match_all": true, "key": "setting.disable_tab_abbreviations_on_auto_complete"}, {"match_all": true, "key": "is_abbreviation"} ] },
+    { "keys": ["enter"], "command": "handle_enter_key", "context": [{"operand": "text.html -source, text.xml", "key": "selector"}, {"operand": false, "key": "auto_complete_visible"}, {"operand": false, "key": "setting.disable_formatted_linebreak"} ] },
+    { "keys": ["#"], "args": {"attribute": "id"}, "command": "emmet_insert_attribute", "context": [{"operand": "text.html meta.tag -string -punctuation.definition.tag.begin.html -meta.scope.between-tag-pair.html -source -meta.tag.template.value.twig", "operator": "equal", "match_all": true, "key": "selector"}, {"operator": "equal", "operand": true, "key": "setting.auto_id_class"} ] },
+    { "keys": ["."], "args": {"attribute": "class"}, "command": "emmet_insert_attribute", "context": [{"operand": "text.html meta.tag -string -punctuation.definition.tag.begin.html -meta.scope.between-tag-pair.html -source -meta.tag.template.value.twig", "operator": "equal", "match_all": true, "key": "selector"}, {"operator": "equal", "operand": true, "key": "setting.auto_id_class"} ] },
+
+    // RAILS PARTIAL
+    { "keys": ["ctrl+alt+p"], "command": "rails_partial"},
+    { "keys": ["shift+alt+p"], "command": "rails_partial", "args": {"open_partial": true}}
+
+]

@@ -61,3 +61,6 @@
 [submodule "Theme - Soda"]
 	path = Theme - Soda
 	url = https://github.com/buymeasoda/soda-theme/
+[submodule "ColorPick"]
+	path = ColorPick
+	url = git@github.com:jnordberg/sublime-colorpick.git

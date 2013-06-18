@@ -37,9 +37,6 @@
 [submodule "RSpec"]
 	path = RSpec
 	url = https://github.com/SublimeText/RSpec.git
-[submodule "VcsGutter"]
-	path = VcsGutter
-	url = https://github.com/bradsokol/VcsGutter.git
 [submodule "ShellTurtlestein"]
 	path = ShellTurtlestein
 	url = https://github.com/misfo/Shell-Turtlestein.git
@@ -64,3 +61,6 @@
 [submodule "ColorPick"]
 	path = ColorPick
 	url = git@github.com:jnordberg/sublime-colorpick.git
+[submodule "VCS Gutter"]
+	path = VCS Gutter
+	url = git://github.com/bradsokol/VcsGutter.git

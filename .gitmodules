@@ -64,3 +64,6 @@
 [submodule "VCS Gutter"]
 	path = VCS Gutter
 	url = git://github.com/bradsokol/VcsGutter.git
+[submodule "SublimeRails"]
+	path = SublimeRails
+	url = https://github.com/jonarrien/sublime-rails

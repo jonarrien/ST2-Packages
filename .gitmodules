@@ -73,3 +73,6 @@
 [submodule "SublimeRubocop"]
 	path = SublimeRubocop
 	url = git@github.com:pderichs/sublime_rubocop.git
+[submodule "MaxPane"]
+	path = MaxPane
+	url = git@github.com:jisaacks/MaxPane.git

@@ -67,3 +67,6 @@
 [submodule "SublimeRails"]
 	path = SublimeRails
 	url = https://github.com/jonarrien/sublime-rails
+[submodule "OpenSearchResult"]
+	path = OpenSearchResult
+	url = git@github.com:abrookins/OpenSearchResult.git

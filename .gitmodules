@@ -70,3 +70,6 @@
 [submodule "OpenSearchResult"]
 	path = OpenSearchResult
 	url = git@github.com:abrookins/OpenSearchResult.git
+[submodule "SublimeRubocop"]
+	path = SublimeRubocop
+	url = git@github.com:pderichs/sublime_rubocop.git

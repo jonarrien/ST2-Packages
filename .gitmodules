@@ -79,3 +79,6 @@
 [submodule "Sublimerge"]
 	path = Sublimerge
 	url = git@github.com:borysf/Sublimerge.git
+[submodule "Git"]
+	path = Git
+	url = git://github.com/kemayo/sublime-text-2-git.git

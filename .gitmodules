@@ -82,3 +82,6 @@
 [submodule "Git"]
 	path = Git
 	url = git://github.com/kemayo/sublime-text-2-git.git
+[submodule "AlignTab"]
+	path = AlignTab
+	url = git@github.com:randy3k/AlignTab.git

@@ -97,3 +97,12 @@
 [submodule "ClipboardHistory"]
 	path = ClipboardHistory
 	url = git@github.com:kemayo/sublime-text-2-clipboard-history.git
+[submodule "BeautifyRuby"]
+	path = BeautifyRuby
+	url = git@github.com:CraigWilliams/BeautifyRuby.git
+[submodule "RailsCasts"]
+	path = RailsCasts
+	url = git@github.com:tdm00/sublime-theme-railscasts.git
+[submodule "BlockCursor"]
+	path = BlockCursor
+	url = git@github.com:netpro2k/SublimeBlockCursor.git

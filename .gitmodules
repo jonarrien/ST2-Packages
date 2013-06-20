@@ -94,3 +94,6 @@
 [submodule "LiveReload"]
 	path = LiveReload
 	url = git@github.com:dz0ny/LiveReload-sublimetext2.git
+[submodule "ClipboardHistory"]
+	path = ClipboardHistory
+	url = git@github.com:kemayo/sublime-text-2-clipboard-history.git

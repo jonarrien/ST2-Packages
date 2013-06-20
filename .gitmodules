@@ -91,3 +91,6 @@
 [submodule "jQuery"]
 	path = jQuery
 	url = git@github.com:SublimeText/jQuery.git
+[submodule "LiveReload"]
+	path = LiveReload
+	url = git@github.com:dz0ny/LiveReload-sublimetext2.git

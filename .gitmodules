@@ -76,3 +76,6 @@
 [submodule "MaxPane"]
 	path = MaxPane
 	url = git@github.com:jisaacks/MaxPane.git
+[submodule "Sublimerge"]
+	path = Sublimerge
+	url = git@github.com:borysf/Sublimerge.git

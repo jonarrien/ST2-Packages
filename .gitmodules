@@ -85,3 +85,6 @@
 [submodule "AlignTab"]
 	path = AlignTab
 	url = git@github.com:randy3k/AlignTab.git
+[submodule "SublimeCodeIntel"]
+	path = SublimeCodeIntel
+	url = git@github.com:SublimeCodeIntel/SublimeCodeIntel.git

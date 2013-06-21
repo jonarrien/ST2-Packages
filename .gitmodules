@@ -103,3 +103,6 @@
 [submodule "sublime-sparql"]
 	path = sublime-sparql
 	url = git@github.com:ronmichael/sublime-sparql.git
+[submodule "sublime-sparql-runner"]
+	path = sublime-sparql-runner
+	url = https://github.com/cezarsa/sublime-sparql-runner.git

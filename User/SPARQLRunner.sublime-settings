@@ -1,0 +1,14 @@
+{
+	"current_endpoint": "http://semantic.eea.europa.eu/sparql",
+	"sparql_endpoints":
+	[
+		{
+			"name": "dbpedia",
+			"url": "http://dbpedia.org/sparql"
+		},
+		{
+			"name": "EEA Semantic Data Service",
+			"url": "http://semantic.eea.europa.eu/sparql"
+		}
+	]
+}

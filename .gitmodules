@@ -100,3 +100,6 @@
 [submodule "RailsCasts"]
 	path = RailsCasts
 	url = git@github.com:tdm00/sublime-theme-railscasts.git
+[submodule "sublime-sparql"]
+	path = sublime-sparql
+	url = git@github.com:ronmichael/sublime-sparql.git

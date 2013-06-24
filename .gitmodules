@@ -106,3 +106,6 @@
 [submodule "sublime-sparql-runner"]
 	path = sublime-sparql-runner
 	url = https://github.com/cezarsa/sublime-sparql-runner.git
+[submodule "RubySlim"]
+	path = RubySlim
+	url = https://github.com/slim-template/ruby-slim.tmbundle.git

@@ -109,3 +109,6 @@
 [submodule "RubySlim"]
 	path = RubySlim
 	url = https://github.com/slim-template/ruby-slim.tmbundle.git
+[submodule "SublimeRailsSnippets"]
+	path = SublimeRailsSnippets
+	url = git@github.com:tadast/sublime-rails-snippets.git

@@ -118,3 +118,6 @@
 [submodule "MarkdownEditing"]
 	path = MarkdownEditing
 	url = git@github.com:ttscoff/MarkdownEditing.git
+[submodule "SublimePrettyJson"]
+	path = SublimePrettyJson
+	url = git@github.com:dzhibas/SublimePrettyJson.git

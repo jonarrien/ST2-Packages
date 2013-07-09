@@ -121,3 +121,6 @@
 [submodule "SublimePrettyJson"]
 	path = SublimePrettyJson
 	url = git@github.com:dzhibas/SublimePrettyJson.git
+[submodule "SublimeHTMLMustache"]
+	path = SublimeHTMLMustache
+	url = https://github.com/adamchainz/SublimeHTMLMustache.git

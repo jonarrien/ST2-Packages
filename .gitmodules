@@ -130,3 +130,6 @@
 [submodule "Theme - Phoenix"]
 	path = Theme - Phoenix
 	url = https://github.com/netatoo/phoenix-theme/
+[submodule "DashDoc"]
+	path = DashDoc
+	url = https://github.com/farcaller/DashDoc.git

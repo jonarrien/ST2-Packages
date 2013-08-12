@@ -42,9 +42,9 @@
 	"fold_buttons": true,
 	"folder_exclude_patterns":
 	[
+		".codeintel",
+		".idea",
 		".svn",
-		".DS_Store",
-		"._.DS_Store",
 		".git",
 		".hg",
 		"CVS",

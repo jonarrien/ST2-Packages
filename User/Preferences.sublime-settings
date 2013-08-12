@@ -3,12 +3,12 @@
 	"auto_complete_commit_on_tab": false,
 	"bold_folder_labels": true,
 	"caret_style": "wide",
-	"color_scheme": "Packages/User/_themes/i3Dark@jonarrien.tmTheme",
+	"color_scheme": "Packages/User/Themes/i3Dark@jonarrien.tmTheme",
 	"detect_slow_plugins": false,
 	"dictionary": "Packages/Languages/es_ES.dic",
 	"draw_minimap_border": false,
 	"draw_white_space": "selection",
-	"ensure_newline_at_eof_on_save": true,
+	"ensure_newline_at_eof_on_save": false,
 	"fade_fold_buttons": false,
 	"file_exclude_patterns":
 	[
@@ -107,6 +107,7 @@
 	"phoenix_tabs_small": true,
 	"rulers":
 	[
+		80
 	],
 	"save_on_focus_lost": true,
 	"scroll_past_end": true,
@@ -115,7 +116,7 @@
 	"soda_folder_icons": true,
 	"suppress_word_completions": false,
 	"tab_completion": true,
-	"tab_size": 4,
+	"tab_size": 2,
 	"theme": "Soda Dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,

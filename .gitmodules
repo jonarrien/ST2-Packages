@@ -133,3 +133,9 @@
 [submodule "DashDoc"]
 	path = DashDoc
 	url = https://github.com/farcaller/DashDoc.git
+[submodule "sublime-cucumber-step-finder"]
+	path = sublime-cucumber-step-finder
+	url = https://github.com/danielfrey/sublime-cucumber-step-finder.git
+[submodule "cucumber-sublime2-bundle"]
+	path = cucumber-sublime2-bundle
+	url = https://github.com/drewda/cucumber-sublime2-bundle.git

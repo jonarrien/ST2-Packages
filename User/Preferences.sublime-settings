@@ -36,7 +36,8 @@
 		"*.pdf",
 		"*.pch",
 		"*.entitlements",
-		"*.xib"
+		"*.xib",
+		".tags"
 	],
 	"find_selected_text": true,
 	"fold_buttons": true,
@@ -48,6 +49,7 @@
 		".git",
 		".hg",
 		"CVS",
+		"tmp",
 		"node_modules",
 		".zeus.sock",
 		"*.xcodeproj",
@@ -59,7 +61,7 @@
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 12.0,
+	"font_size": 14.0,
 	"gutter": true,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
@@ -118,6 +120,15 @@
 	"tab_completion": true,
 	"tab_size": 2,
 	"theme": "Soda Dark.sublime-theme",
+	"todo": {
+		"case_sensitive": true,
+    "patterns": {
+
+    },
+    "file_exclude_patterns": [
+	    "*.tags"
+		]
+  },
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"use_simple_completion": false,

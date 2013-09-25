@@ -136,3 +136,9 @@
 [submodule "cucumber-sublime2-bundle"]
 	path = cucumber-sublime2-bundle
 	url = https://github.com/drewda/cucumber-sublime2-bundle.git
+[submodule "OpenFileList"]
+	path = OpenFileList
+	url = https://github.com/drikin/OpenFileList.git
+[submodule "SublimeTODO"]
+	path = SublimeTODO
+	url = https://github.com/robcowie/SublimeTODO.git

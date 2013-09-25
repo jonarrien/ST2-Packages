@@ -14,6 +14,12 @@
     { "keys": ["ctrl+alt+["], "command": "navigation_history_back"},
     { "keys": ["ctrl+alt+]"], "command": "navigation_history_forward"},
 
+    // ----- PANE NAVIGATION -----
+    { "keys": ["ctrl+]"], "command": "pane_navigation", "args": {"direction": 1} },
+    { "keys": ["ctrl+["], "command": "pane_navigation", "args": {"direction": -1} },
+    { "keys": ["ctrl+shift+["], "command": "move_to_group", "args": { "group": 0 } },
+    { "keys": ["ctrl+shift+]"], "command": "move_to_group", "args": { "group": 1 } },
+
     // ----- STACK
     { "keys": ["ctrl+tab"], "command": "next_view_in_stack" },
     { "keys": ["ctrl+shift+tab"], "command": "prev_view_in_stack" },
@@ -178,6 +184,31 @@
     { "keys": ["shift+alt+p"], "command": "rails_partial", "args": {"open_partial": true}},
 
     // SPARQL RUNNER
-    { "keys": ["super+shift+k"], "command": "run_sparql" }
+    { "keys": ["super+shift+k"], "command": "run_sparql" },
+
+    // SUBLIME TODO
+    {
+        "keys": ["j"], "command": "navigate_results",
+        "context": [
+            {"key": "setting.command_mode", "operand": true},
+            {"key": "setting.todo_results"}
+        ],
+        "args": {"direction": "forward"}
+    },
+    {
+        "keys": ["k"], "command": "navigate_results",
+        "context": [
+            {"key": "setting.command_mode", "operand": true},
+            {"key": "setting.todo_results"}
+        ],
+        "args": {"direction": "backward"}
+    },
+    {
+        "keys": ["g","o"], "command": "goto_comment",
+        "context": [
+            {"key": "setting.command_mode", "operand": true},
+            {"key": "setting.todo_results"}
+        ]
+    }
 
 ]

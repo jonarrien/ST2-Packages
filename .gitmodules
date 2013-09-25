@@ -142,3 +142,6 @@
 [submodule "SublimeTODO"]
 	path = SublimeTODO
 	url = https://github.com/robcowie/SublimeTODO.git
+[submodule "sublime-EasyMotion"]
+	path = sublime-EasyMotion
+	url = https://github.com/tednaleid/sublime-EasyMotion.git

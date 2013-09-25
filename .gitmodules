@@ -124,9 +124,6 @@
 [submodule "SublimeHTMLMustache"]
 	path = SublimeHTMLMustache
 	url = https://github.com/adamchainz/SublimeHTMLMustache.git
-[submodule "SublimeCodeIntel"]
-	path = SublimeCodeIntel
-	url = https://github.com/SublimeCodeIntel/SublimeCodeIntel.git
 [submodule "Theme - Phoenix"]
 	path = Theme - Phoenix
 	url = https://github.com/netatoo/phoenix-theme/

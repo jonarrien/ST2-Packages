@@ -145,3 +145,6 @@
 [submodule "sublime-EasyMotion"]
 	path = sublime-EasyMotion
 	url = https://github.com/tednaleid/sublime-EasyMotion.git
+[submodule "emmet-sublime"]
+	path = emmet-sublime
+	url = https://github.com/sergeche/emmet-sublime

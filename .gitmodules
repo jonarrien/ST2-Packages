@@ -148,3 +148,9 @@
 [submodule "emmet-sublime"]
 	path = emmet-sublime
 	url = https://github.com/sergeche/emmet-sublime
+[submodule "Theme - Night"]
+	path = Theme - Night
+	url = git@github.com:amisarca/sublime-text-theme-night.git
+[submodule "Theme - Nil"]
+	path = Theme - Nil
+	url = git@github.com:nilium/st2-nil-theme.git

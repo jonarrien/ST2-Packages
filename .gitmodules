@@ -157,3 +157,6 @@
 [submodule "sublime-capybara-snippets"]
 	path = sublime-capybara-snippets
 	url = git@github.com:asux/sublime-capybara-snippets.git
+[submodule "SublimeText2 Snippets"]
+	path = SublimeText2 Snippets
+	url = git@github.com:Chris---/SublimeText-Sublime-Text-2-Snippets.git

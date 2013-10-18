@@ -160,3 +160,6 @@
 [submodule "SublimeText2 Snippets"]
 	path = SublimeText2 Snippets
 	url = git@github.com:Chris---/SublimeText-Sublime-Text-2-Snippets.git
+[submodule "SublimeJEDI"]
+	path = SublimeJEDI
+	url = git@github.com:srusskih/SublimeJEDI.git

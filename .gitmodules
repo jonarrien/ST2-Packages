@@ -151,9 +151,6 @@
 [submodule "Theme - Nil"]
 	path = Theme - Nil
 	url = git@github.com:nilium/st2-nil-theme.git
-[submodule "sublime-capybara-snippets"]
-	path = sublime-capybara-snippets
-	url = git@github.com:asux/sublime-capybara-snippets.git
 [submodule "SublimeText2 Snippets"]
 	path = SublimeText2 Snippets
 	url = git@github.com:Chris---/SublimeText-Sublime-Text-2-Snippets.git

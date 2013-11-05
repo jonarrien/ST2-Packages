@@ -209,6 +209,10 @@
             {"key": "setting.command_mode", "operand": true},
             {"key": "setting.todo_results"}
         ]
-    }
+    },
+
+    // RUBY BLOCK CONVERTER
+    { "keys": ["ctrl+shift+b"], "command": "do_end_to_brace" },
+    { "keys": ["ctrl+shift+e"], "command": "brace_to_do_end" }
 
 ]

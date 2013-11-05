@@ -163,3 +163,6 @@
 [submodule "sublime-gem-browser"]
 	path = sublime-gem-browser
 	url = git@github.com:NaN1488/sublime-gem-browser.git
+[submodule "RubyBlockConverter"]
+	path = RubyBlockConverter
+	url = git@github.com:irohiroki/RubyBlockConverter.git

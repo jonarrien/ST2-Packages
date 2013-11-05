@@ -4,9 +4,6 @@
 [submodule "Haml"]
 	path = Haml
 	url = https://github.com/phuibonhoa/handcrafted-haml-textmate-bundle.git
-[submodule "GemBrowser"]
-	path = GemBrowser
-	url = https://github.com/NaN1488/sublime-gem-browser.git
 [submodule "Hayaku"]
 	path = Hayaku
 	url = https://github.com/hayaku/hayaku.git
@@ -163,3 +160,6 @@
 [submodule "SublimeJEDI"]
 	path = SublimeJEDI
 	url = git@github.com:srusskih/SublimeJEDI.git
+[submodule "sublime-gem-browser"]
+	path = sublime-gem-browser
+	url = git@github.com:NaN1488/sublime-gem-browser.git

@@ -166,3 +166,6 @@
 [submodule "RubyBlockConverter"]
 	path = RubyBlockConverter
 	url = git@github.com:irohiroki/RubyBlockConverter.git
+[submodule "SublimeText2RailsRelatedFiles"]
+	path = SublimeText2RailsRelatedFiles
+	url = git@github.com:luqman/SublimeText2RailsRelatedFiles.git

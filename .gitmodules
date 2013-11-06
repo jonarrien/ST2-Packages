@@ -163,3 +163,6 @@
 [submodule "SublimeText2RailsRelatedFiles"]
 	path = SublimeText2RailsRelatedFiles
 	url = git@github.com:luqman/SublimeText2RailsRelatedFiles.git
+[submodule "Sublime-Better-Completion"]
+	path = Sublime-Better-Completion
+	url = git@github.com:Pleasurazy/Sublime-Better-Completion.git

@@ -166,3 +166,6 @@
 [submodule "Sublime-Better-Completion"]
 	path = Sublime-Better-Completion
 	url = git@github.com:Pleasurazy/Sublime-Better-Completion.git
+[submodule "Theme - Piatto"]
+	path = Theme - Piatto
+	url = git@github.com:samuelrafo/piatto.git

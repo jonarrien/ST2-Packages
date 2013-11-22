@@ -166,6 +166,15 @@
 [submodule "Sublime-Better-Completion"]
 	path = Sublime-Better-Completion
 	url = git@github.com:Pleasurazy/Sublime-Better-Completion.git
+[submodule "SublimeCodeIntel"]
+	path = SublimeCodeIntel
+	url = git://github.com/SublimeCodeIntel/SublimeCodeIntel.git
 [submodule "Theme - Piatto"]
 	path = Theme - Piatto
 	url = git@github.com:samuelrafo/piatto.git
+[submodule "SublimeSuperNavigator"]
+	path = SublimeSuperNavigator
+	url = git@github.com:jugyo/SublimeSuperNavigator.git
+[submodule "sublime-text-2-hash-syntax"]
+	path = sublime-text-2-hash-syntax
+	url = git@github.com:iltempo/sublime-text-2-hash-syntax.git

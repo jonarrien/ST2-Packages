@@ -73,9 +73,6 @@
 [submodule "MaxPane"]
 	path = MaxPane
 	url = git@github.com:jisaacks/MaxPane.git
-[submodule "Sublimerge"]
-	path = Sublimerge
-	url = git@github.com:borysf/Sublimerge.git
 [submodule "Git"]
 	path = Git
 	url = git://github.com/kemayo/sublime-text-2-git.git
@@ -178,3 +175,12 @@
 [submodule "sublime-text-2-hash-syntax"]
 	path = sublime-text-2-hash-syntax
 	url = git@github.com:iltempo/sublime-text-2-hash-syntax.git
+[submodule "rails_go_to_spec"]
+	path = rails_go_to_spec
+	url = git@github.com:sporto/rails_go_to_spec.git
+[submodule "colour-schemes"]
+	path = colour-schemes
+	url = git@github.com:daylerees/colour-schemes.git
+[submodule "SublimeHttpRequester"]
+	path = SublimeHttpRequester
+	url = git@github.com:braindamageinc/SublimeHttpRequester.git
